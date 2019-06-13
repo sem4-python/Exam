@@ -18,7 +18,7 @@ img{
     -   [ ] What does it mean that an array has a shape?
     -   [ ] How do you plot multiple lines in Matplotlib?
 -   [ ] Intro to Pandas
-    -   [ ] What is a `DataFrame`?
+    -   [x] What is a `DataFrame`?
     -   [ ] How do you access a row in a `DataFrame`?
 -   [ ] Multiprocessing, generators and intro to Requests
     -   [ ] What is the difference between an iterator and a generator?
