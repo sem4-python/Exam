@@ -5,42 +5,42 @@ img{
 }
 </style>
 
--   [x] [Whirlwind, Lists, Loops, Cond. Stmts., Functions, Modules, Dicts](#-whirlwind,-lists,-loops,-cond.-stmts.,-functions,-modules,-dicts)
-    -   [x] [What is the difference between a list and a dictionary?](##-what-is-the-difference-between-a-list-and-a-dictionary?)
-    -   [x] [How do you write a module in Python?](##-how-do-you-write-a-module-in-python?)
--   [x] [Files, CLI, OO, Exceptions](#-files,-cli,-oo,-exceptions)
-    -   [x] [How do you open a file in Python?](##-how-do-you-open-a-file-in-python?)
-    -   [x] [How do you throw an exception in Python?](##-how-do-you-throw-an-exception-in-python?)
--   [x] [Intro to Plotting](#-intro-to-plotting)
-    -   [x] [How do you plot a line chart in Matplotlib?](##-how-do-you-plot-a-line-chart-in-matplotlib?)
-    -   [x] [What is an axis in a Matplotlib plot?](##-what-is-an-axis-in-a-matplotlib-plot?)
--   [ ] [Intro to Numpy and Plotting Cntd.,](#-intro-to-numpy-and-plotting-cntd.,)
-    -   [ ] [What does it mean that an array has a shape?](##-what-does-it-mean-that-an-array-has-a-shape?)
-    -   [ ] [How do you plot multiple lines in Matplotlib?](##-how-do-you-plot-multiple-lines-in-matplotlib?)
--   [ ] [Intro to Pandas](#-intro-to-pandas)
-    -   [ ] [What is a `DataFrame`?](##-what-is-a-`dataframe`?)
-    -   [ ] [How do you access a row in a `DataFrame`?](##-how-do-you-access-a-row-in-a-`dataframe`?)
--   [ ] [Multiprocessing, generators and intro to Requests](#-multiprocessing,-generators-and-intro-to-requests)
-    -   [ ] [What is the difference between an iterator and a generator?](##-what-is-the-difference-between-an-iterator-and-a-generator?)
-    -   [ ] [How do you parallelise programs in Python?](##-how-do-you-parallelise-programs-in-python?)
--   [ ] [Graphs & PageRank](#-graphs-&-pagerank)
-    -   [ ] [What is a graph?](##-what-is-a-graph?)
-    -   [ ] [Why does the PageRank algorithm exist?](##-why-does-the-pagerank-algorithm-exist?)
--   [ ] [Webscraping Basics, Regular Expr. & Selenium](#-webscraping-basics,-regular-expr.-&-Selenium)
-    -   [ ] [What is a regular expression?](##-what-is-a-regular-expression?)
-    -   [ ] [What is Selenium?](##-what-is-selenium?)
--   [ ] [Feature spaces](#-feature-spaces)
-    -   [ ] [What is a feature?](##-what-is-a-feature?)
-    -   [ ] [What is a feature vector?](##-what-is-a-feature-vector?)
--   [ ] [Neural Networks](#-neural-networks)
-    -   [ ] [What is a neuron?](##-what-is-a-neuron?)
-    -   [ ] [What is an activation function?](##-what-is-an-activation-function?)
--   [ ] [Image Proc. (OpenCV)](<#-image-proc.-(opencv)>)
-    -   [ ] [How do you represent an image in a Numpy array?](##-how-do-you-represent-an-image-in-a-numpy-array?)
-    -   [ ] [What is a colour space?](##-what-is-a-colour-space?)
--   [ ] [Movement Detection](#-movement-detection)
-    -   [ ] [What is an ‘object’?](##-what-is-an-‘object’?)
-    -   [ ] [How does movement detection work?](##-how-does-movement-detection-work?)
+-   [x] Whirlwind, Lists, Loops, Cond. Stmts., Functions, Modules, Dicts
+    -   [x] What is the difference between a list and a dictionary?
+    -   [x] How do you write a module in Python?
+-   [x] Files, CLI, OO, Exceptions
+    -   [x] How do you open a file in Python?
+    -   [x] How do you throw an exception in Python?
+-   [x] Intro to Plotting
+    -   [x] How do you plot a line chart in Matplotlib?
+    -   [x] What is an axis in a Matplotlib plot?
+-   [ ] Intro to Numpy and Plotting Cntd.,
+    -   [ ] What does it mean that an array has a shape?
+    -   [ ] How do you plot multiple lines in Matplotlib?
+-   [ ] Intro to Pandas
+    -   [ ] What is a `DataFrame`?
+    -   [ ] How do you access a row in a `DataFrame`?
+-   [ ] Multiprocessing, generators and intro to Requests
+    -   [ ] What is the difference between an iterator and a generator?
+    -   [ ] How do you parallelise programs in Python?
+-   [ ] Graphs & PageRank
+    -   [ ] What is a graph?
+    -   [ ] Why does the PageRank algorithm exist?
+-   [ ] Webscraping Basics, Regular Expr. & Selenium
+    -   [ ] What is a regular expression?
+    -   [ ] What is Selenium?
+-   [ ] Feature spaces
+    -   [ ] What is a feature?
+    -   [ ] What is a feature vector?
+-   [ ] Neural Networks
+    -   [ ] What is a neuron?
+    -   [ ] What is an activation function?
+-   [ ] Image Proc. (OpenCV)
+    -   [ ] How do you represent an image in a Numpy array?
+    -   [ ] What is a colour space?
+-   [ ] Movement Detection
+    -   [ ] What is an ‘object’?
+    -   [ ] How does movement detection work?
 
 # Whirlwind, Lists, Loops, Cond. Stmts., Functions, Modules, Dicts
 
