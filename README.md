@@ -3,6 +3,7 @@
 A `list` is an ordered sequence of elements. The elements can have any type, and the elements don't have to be of the same type.  
 A `dictionary` is an unordered set of key-value pairs. The keys can have any hashable type, while the values don't have any type restrictions.  
 The elements of a list can be accessed by their index, whereas the values of a dictionary is accessed by their key.
+
 ### How do you write a module in Python?
 Python modules are `.py` files that consist of Python code. Any Python file can be referenced as a module.  
 Some modules are available through the [Python Standard Library](https://docs.python.org/3/library/), while others can be installed with Python's package manager `pip`.  
@@ -57,7 +58,7 @@ with open(filename,'w') as file:
 ```
 
 |Mode|Description|
-|---|---|
+|-|-|
 |'r'|This is the default mode. It Opens file for reading.|
 |'w'|This Mode Opens file for writing. If file does not exist, it creates a new file. If file exists it truncates the file.|
 |'x'|Creates a new file. If file already exists, the operation fails.|
@@ -67,8 +68,36 @@ with open(filename,'w') as file:
 |'+'|This will open a file for reading and writing (updating)|
 
 ### How do you throw an exception in Python?
+```python
+x = 10
+if x > 5:
+    raise Exception('x should not exceed 5. The value of x was: {}'.format(x))
+```
+
+![Handling Exceptions](https://files.realpython.com/media/try_except_else_finally.a7fac6c36c55.png)
+
+```python
+def linux_interaction():
+    assert ('linux' in sys.platform), "Function can only run on Linux systems."
+    print('Doing something.')
+
+try:
+    linux_interaction()
+except AssertionError as error:
+    print(error)
+else:
+    try:
+        with open('file.log') as file:
+            read_data = file.read()
+    except FileNotFoundError as fnf_error:
+        print(fnf_error)
+finally:
+    print('Cleaning up, irrespective of any exceptions.')
+```
+
 ## Intro to Plotting
 ### How do you plot a line chart in Matplotlib?
+
 ### What is an axis in a Matplotlib plot?
 ## Intro to Numpy and Plotting Cntd.,
 ### What does it mean that an array has a shape?
