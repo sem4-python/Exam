@@ -56,7 +56,7 @@ with open(filename,'w') as file:
     #do stuff with file
 ```
 |Mode|Description|
-|-|-|
+|---|---|
 |'r'|This is the default mode. It Opens file for reading.|
 |'w'|This Mode Opens file for writing. If file does not exist, it creates a new file. If file exists it truncates the file.|
 |'x'|Creates a new file. If file already exists, the operation fails.|
