@@ -1,5 +1,3 @@
-# Exam
-
 ## Whirlwind, Lists, Loops, Cond. Stmts., Functions, Modules, Dicts
 ### What is the difference between a list and a dictionary?
 A `list` is an ordered sequence of elements. The elements can have any type, and the elements don't have to be of the same type.  
