@@ -113,6 +113,8 @@ plt.show()
 ![output](https://matplotlib.org/3.1.0/_images/sphx_glr_pyplot_simple_001.png)
 
 ### What is an axis in a Matplotlib plot?
+[matplotlib.axis](https://matplotlib.org/3.1.0/api/axis_api.html?highlight=axis#module-matplotlib.axis) documentation
+
 ## Intro to Numpy and Plotting Cntd.,
 ### What does it mean that an array has a shape?
 ### How do you plot multiple lines in Matplotlib?
