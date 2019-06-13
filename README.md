@@ -55,6 +55,7 @@ If not it will run the code when imported.
 with open(filename,'w') as file:
     #do stuff with file
 ```
+
 |Mode|Description|
 |---|---|
 |'r'|This is the default mode. It Opens file for reading.|
