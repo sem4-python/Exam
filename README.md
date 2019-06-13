@@ -164,7 +164,7 @@ plt.show()
 
 ## What is an axis in a Matplotlib plot?
 
-[matplotlib.axis](https://matplotlib.org/3.1.0/api/axis_api.html?highlight=axis#module-matplotlib.axis) documentation
+[`matplotlib.axis`](https://matplotlib.org/3.1.0/api/axis_api.html?highlight=axis#module-matplotlib.axis) documentation
 
 # Intro to Numpy and Plotting Cntd.,
 
@@ -175,6 +175,8 @@ plt.show()
 # Intro to Pandas
 
 ## What is a `DataFrame`?
+
+[`pandas.DataFrame`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
 
 ## How do you access a row in a `DataFrame`?
 
