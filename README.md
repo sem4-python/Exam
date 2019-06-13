@@ -51,6 +51,20 @@ if __name__ == '__main__':
 If not it will run the code when imported.
 ## Files, CLI, OO, Exceptions
 ### How do you open a file in Python?
+```python
+with open(filename,'w') as file:
+    #do stuff with file
+```
+Mode|Description
+-|-
+'r'|This is the default mode. It Opens file for reading.
+'w'|This Mode Opens file for writing. If file does not exist, it creates a new file. If file exists it truncates the file.
+'x'|Creates a new file. If file already exists, the operation fails.
+'a'|Open file in append mode. If file does not exist, it creates a new file.
+'t'|This is the default mode. It opens in text mode.
+'b'|This opens in binary mode.
+'+'|This will open a file for reading and writing (updating)
+
 ### How do you throw an exception in Python?
 ## Intro to Plotting
 ### How do you plot a line chart in Matplotlib?
