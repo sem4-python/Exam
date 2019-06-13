@@ -1,3 +1,10 @@
+<style>
+img{ 
+  max-width:  500px; 
+  display: block;
+}
+</style>
+
 ## Whirlwind, Lists, Loops, Cond. Stmts., Functions, Modules, Dicts
 ### What is the difference between a list and a dictionary?
 A `list` is an ordered sequence of elements. The elements can have any type, and the elements don't have to be of the same type.  
@@ -97,6 +104,13 @@ finally:
 
 ## Intro to Plotting
 ### How do you plot a line chart in Matplotlib?
+```python
+import matplotlib.pyplot as plt
+plt.plot([1,2,3,4])
+plt.ylabel('some numbers')
+plt.show()
+```
+![output](https://matplotlib.org/3.1.0/_images/sphx_glr_pyplot_simple_001.png)
 
 ### What is an axis in a Matplotlib plot?
 ## Intro to Numpy and Plotting Cntd.,
