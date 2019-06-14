@@ -17,9 +17,9 @@ img{
 -   [x] Intro to Numpy and Plotting Cntd.,
     -   [x] What does it mean that an array has a shape?
     -   [x] How do you plot multiple lines in Matplotlib?
--   [ ] Intro to Pandas
+-   [x] Intro to Pandas
     -   [x] What is a `DataFrame`?
-    -   [ ] How do you access a row in a `DataFrame`?
+    -   [x] How do you access a row in a `DataFrame`?
 -   [ ] Multiprocessing, generators and intro to Requests
     -   [ ] What is the difference between an iterator and a generator?
     -   [ ] How do you parallelise programs in Python?
@@ -80,13 +80,10 @@ class Octopus:
 # main_program.py
 # Import hello module
 import hello
-
 # Call function
 hello.world()
-
 # Print variable
 print(hello.shark)
-
 # Call class
 jesse = hello.Octopus("Jesse", "orange")
 jesse.tell_me_about_the_octopus()
@@ -236,6 +233,28 @@ plt.show()
 [`pandas.DataFrame`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
 
 ## How do you access a row in a `DataFrame`?
+
+```python
+import pandas as pd
+df1 = pd.read_csv("https://pythonhow.com/data/income_data.csv")
+df2 = df1.set_index("State", drop = False)
+# Extracting a subset of a pandas dataframe
+df2.loc["Alaska":"Arkansas","2005":"2007"]
+# Extracting a column of a pandas dataframe
+df2.loc[: , "2005"]
+df2["2005"]
+# Extracting a row of a pandas dataframe
+df2.loc["California", : ]
+# Extracting specific columns of a pandas dataframe
+df2[["2005", "2008", "2009"]]
+# Extracting specific rows of a pandas dataframe
+df2[1:3]
+# Extracting a single cell from a pandas dataframe
+df2.loc["California","2013"]
+# Position based indexing
+df2.iloc[0:3,0:4]
+df2.ix[0:3,"2005":"2007"]
+```
 
 # Multiprocessing, generators and intro to Requests
 
