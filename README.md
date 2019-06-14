@@ -15,7 +15,7 @@ img{
     -   [x] How do you plot a line chart in Matplotlib?
     -   [x] What is an axis in a Matplotlib plot?
 -   [ ] Intro to Numpy and Plotting Cntd.,
-    -   [ ] What does it mean that an array has a shape?
+    -   [x] What does it mean that an array has a shape?
     -   [ ] How do you plot multiple lines in Matplotlib?
 -   [ ] Intro to Pandas
     -   [x] What is a `DataFrame`?
@@ -169,6 +169,38 @@ plt.show()
 # Intro to Numpy and Plotting Cntd.,
 
 ## What does it mean that an array has a shape?
+
+An array has a `shape`, this is the dimensions of the array eg.
+
+```python
+[1,2,3]
+```
+
+has shape `(3,)` and
+
+```python
+[
+    [1,2,3],
+    [4,5,6]
+]
+```
+
+has shape `(2,3)` and
+
+```python
+[
+    [
+        [1,2,3],
+        [4,5,6]
+    ],
+    [
+        [7,8,9],
+        [10,11,12]
+    ]
+]
+```
+
+has shape `(2,2,3)`.
 
 ## How do you plot multiple lines in Matplotlib?
 
