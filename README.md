@@ -14,9 +14,9 @@ img{
 -   [x] Intro to Plotting
     -   [x] How do you plot a line chart in Matplotlib?
     -   [x] What is an axis in a Matplotlib plot?
--   [ ] Intro to Numpy and Plotting Cntd.,
+-   [x] Intro to Numpy and Plotting Cntd.,
     -   [x] What does it mean that an array has a shape?
-    -   [ ] How do you plot multiple lines in Matplotlib?
+    -   [x] How do you plot multiple lines in Matplotlib?
 -   [ ] Intro to Pandas
     -   [x] What is a `DataFrame`?
     -   [ ] How do you access a row in a `DataFrame`?
@@ -60,20 +60,20 @@ You can write your own module by creating a `.py` file. In this file you can wri
 # hello.py
 # Define a function
 def world():
-    print("Hello, World!")
+  print("Hello, World!")
 
 # Define a variable
 shark = "Sammy"
 
 # Define a class
 class Octopus:
-    def __init__(self, name, color):
-        self.color = color
-        self.name = name
+  def __init__(self, name, color):
+    self.color = color
+    self.name = name
 
-    def tell_me_about_the_octopus(self):
-        print("This octopus is " + self.color + ".")
-        print(self.name + " is the octopus's name.")
+  def tell_me_about_the_octopus(self):
+    print("This octopus is " + self.color + ".")
+    print(self.name + " is the octopus's name.")
 ```
 
 ```python
@@ -96,7 +96,7 @@ If you modue contains code that should only run when it is run as the main, you 
 
 ```python
 if __name__ == '__main__':
-    #run code
+  #run code
 ```
 
 If not it will run the code when imported.
@@ -107,7 +107,7 @@ If not it will run the code when imported.
 
 ```python
 with open(filename,'w') as file:
-    #do stuff with file
+  #do stuff with file
 ```
 
 | Mode | Description                                                                                                            |
@@ -125,28 +125,28 @@ with open(filename,'w') as file:
 ```python
 x = 10
 if x > 5:
-    raise Exception('x should not exceed 5. The value of x was: {}'.format(x))
+  raise Exception('x should not exceed 5. The value of x was: {}'.format(x))
 ```
 
 ![Handling Exceptions](https://files.realpython.com/media/try_except_else_finally.a7fac6c36c55.png)
 
 ```python
 def linux_interaction():
-    assert ('linux' in sys.platform), "Function can only run on Linux systems."
-    print('Doing something.')
+  assert ('linux' in sys.platform), "Function can only run on Linux systems."
+  print('Doing something.')
 
 try:
-    linux_interaction()
+  linux_interaction()
 except AssertionError as error:
-    print(error)
+  print(error)
 else:
-    try:
-        with open('file.log') as file:
-            read_data = file.read()
-    except FileNotFoundError as fnf_error:
-        print(fnf_error)
+  try:
+    with open('file.log') as file:
+      read_data = file.read()
+  except FileNotFoundError as fnf_error:
+    print(fnf_error)
 finally:
-    print('Cleaning up, irrespective of any exceptions.')
+  print('Cleaning up, irrespective of any exceptions.')
 ```
 
 # Intro to Plotting
@@ -180,8 +180,8 @@ has shape `(3,)` and
 
 ```python
 [
-    [1,2,3],
-    [4,5,6]
+  [1,2,3],
+  [4,5,6]
 ]
 ```
 
@@ -189,20 +189,45 @@ has shape `(2,3)` and
 
 ```python
 [
-    [
-        [1,2,3],
-        [4,5,6]
-    ],
-    [
-        [7,8,9],
-        [10,11,12]
-    ]
+  [
+    [1,2,3],
+    [4,5,6]
+  ],
+  [
+    [7,8,9],
+    [10,11,12]
+  ]
 ]
 ```
 
 has shape `(2,2,3)`.
 
 ## How do you plot multiple lines in Matplotlib?
+
+```python
+import matplotlib.pyplot as plt
+# line 1 points
+x1 = [10,20,30]
+y1 = [20,40,10]
+# plotting the line 1 points
+plt.plot(x1, y1, label = "line 1")
+# line 2 points
+x2 = [10,20,30]
+y2 = [40,10,30]
+# plotting the line 2 points
+plt.plot(x2, y2, label = "line 2")
+plt.xlabel('x - axis')
+# Set the y axis label of the current axis.
+plt.ylabel('y - axis')
+# Set a title of the current axes.
+plt.title('Two or more lines on same plot with suitable legends ')
+# show a legend on the plot
+plt.legend()
+# Display a figure.
+plt.show()
+```
+
+![output](https://www.w3resource.com/w3r_images/matplotlib-basic-exercise-5.png)
 
 # Intro to Pandas
 
