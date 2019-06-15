@@ -279,7 +279,17 @@ The generator function is that in which the keyword yield appears in its body. T
 
 ## What is a graph?
 
+Python - [Graphs](https://www.tutorialspoint.com/python/python_graphs.htm)
+
 ## Why does the PageRank algorithm exist?
+
+![Formula](https://searchenginewatch.com/wp-content/uploads/sites/25/2018/10/majestic1-300x169.jpg)
+The formula explained:
+
+> The PageRank of a page in this iteration equals 1 minus a damping factor, plus, for every link into the page (except for links to itself), add the page rank of that page divided by the number of outbound links on the page and reduced by the damping factor.
+
+[Wikipedia](https://en.wikipedia.org/wiki/PageRank)  
+[PageRank explained](https://searchenginewatch.com/google-pagerank-algorithm-explained)
 
 # Webscraping Basics, Regular Expr. & Selenium
 
