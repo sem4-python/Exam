@@ -260,6 +260,17 @@ df2.ix[0:3,"2005":"2007"]
 
 ## What is the difference between an iterator and a generator?
 
+![iterable protocol](https://i1.wp.com/opensourceforu.com/wp-content/uploads/2019/01/4.png?resize=350%2C171&ssl=1)
+
+An iterable is an object that implements the `__iter__` method. An iterable is any object that can be a file pointer and return an iterator. A Python list object is iterable.
+
+An iterator is an object that implements the iterable protocol as it also responds to the `next()` method. To use iterable and iterator, there is a simple iterable protocol which is driven by two functions, `iter()` and `next()`.
+
+A generator is a special kind of iterator. All generators are iterators but all iterators are not generators. Each time the yield statement is executed, the generator function generates a new value.  
+When a generator function gets called, then a generator object is returned without even beginning the execution of the generator function. When the `next()` function is called for the first time, the generator function starts executing until it reaches the yield statement. The yielded value is returned by the `next()` call.
+
+The generator function is that in which the keyword yield appears in its body. The other type of generator is the generator expression, which is equivalent to a list comprehension.
+
 ## How do you parallelise programs in Python?
 
 # Graphs & PageRank
