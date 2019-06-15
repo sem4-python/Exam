@@ -20,9 +20,9 @@ img{
 -   [x] Intro to Pandas
     -   [x] What is a `DataFrame`?
     -   [x] How do you access a row in a `DataFrame`?
--   [ ] Multiprocessing, generators and intro to Requests
-    -   [ ] What is the difference between an iterator and a generator?
-    -   [ ] How do you parallelise programs in Python?
+-   [x] Multiprocessing, generators and intro to Requests
+    -   [x] What is the difference between an iterator and a generator?
+    -   [x] How do you parallelise programs in Python?
 -   [ ] Graphs & PageRank
     -   [ ] What is a graph?
     -   [ ] Why does the PageRank algorithm exist?
@@ -272,6 +272,8 @@ When a generator function gets called, then a generator object is returned witho
 The generator function is that in which the keyword yield appears in its body. The other type of generator is the generator expression, which is equivalent to a list comprehension.
 
 ## How do you parallelise programs in Python?
+
+[Parallel Processing](https://www.machinelearningplus.com/python/parallel-processing-python/) in Python.
 
 # Graphs & PageRank
 
