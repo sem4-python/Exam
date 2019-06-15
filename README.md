@@ -23,9 +23,9 @@ img{
 -   [x] Multiprocessing, generators and intro to Requests
     -   [x] What is the difference between an iterator and a generator?
     -   [x] How do you parallelise programs in Python?
--   [ ] Graphs & PageRank
-    -   [ ] What is a graph?
-    -   [ ] Why does the PageRank algorithm exist?
+-   [x] Graphs & PageRank
+    -   [x] What is a graph?
+    -   [x] Why does the PageRank algorithm exist?
 -   [ ] Webscraping Basics, Regular Expr. & Selenium
     -   [ ] What is a regular expression?
     -   [ ] What is Selenium?
