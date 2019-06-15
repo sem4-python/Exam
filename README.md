@@ -1,6 +1,6 @@
 <style>
 img{ 
-  max-width:  500px; 
+  max-width:  250px; 
   display: block;
 }
 </style>
