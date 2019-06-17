@@ -100,6 +100,8 @@ with open(filename,'w') as file:
   #do stuff with file
 ```
 
+`with` makes sure the file gets closed when the script is done with the file. You can open the file without `with`, the you have to make sure to call `.close()` on the file.
+
 | Mode | Description                                                                                                            |
 | ---- | ---------------------------------------------------------------------------------------------------------------------- |
 | 'r'  | This is the default mode. It Opens file for reading.                                                                   |
